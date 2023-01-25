@@ -54,13 +54,11 @@ function onClickBtnStart() {
   const timerId = setInterval(() => {
   const diff = selectedDatе - new Date();
     const convertDate = convertMs(diff);
-    console.log(convertDate);
     btnStart.disabled = true;
     dayValue.textContent = addLeadingZero(convertDate.days);
     hourValue.textContent = addLeadingZero(convertDate.hours);
     minuteValue.textContent = addLeadingZero(convertDate.minutes);
     secondValue.textContent = addLeadingZero(convertDate.seconds);
-    console.log(typeof secondValue.textContent);
           if (diff <= 1000) {
       clearInterval(timerId);
     }
