@@ -26,7 +26,6 @@ function getData(event) {
 function createPromise(position, delay) {
   return new Promise((resolve, reject) => {
     const newPromise = { position, delay };
-    console.log(newPromise);
     const shouldResolve = Math.random() > 0.3;
     if (shouldResolve) {
       // Fulfill

@@ -5,7 +5,6 @@ import Notiflix from 'notiflix';
 const refs = {
   input: document.getElementById('datetime-picker'),
   btnStart: document.querySelector('button[data-start]'),
-  timerEL: document.querySelector('.timer'),
   dayValue: document.querySelector('[data-days]'),
   hourValue: document.querySelector('[data-hours]'),
   minuteValue: document.querySelector('[data-minutes]'),
@@ -14,7 +13,6 @@ const refs = {
 const {
   input,
   btnStart,
-  timerEL,
   dayValue,
   hourValue,
   minuteValue,
