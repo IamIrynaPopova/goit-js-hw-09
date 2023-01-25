@@ -1,0 +1,45 @@
+#datetime-picker {
+  display: block;
+  margin: 80px auto 50px auto;
+
+  border: solid rgb(0 0 0 / 21%);
+
+  font-size: 18px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+button {
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 5px;
+
+  border: solid rgb(0 0 0 / 21%);
+  font-size: 20px;
+}
+
+.timer {
+  display: flex;
+  margin: 0 auto;
+  width: max-content;
+  border-radius: 20px;
+
+  background-color: rgb(243, 212, 141);
+  border: solid rgb(0 0 0 / 21%);
+}
+.field {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+
+  border: solid rgb(0 0 0 / 21%);
+  background-color: #fafafa;
+
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
